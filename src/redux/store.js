@@ -13,7 +13,6 @@ const getBooks = () => {
       dispatch({ type: "SET_BOOKS", payload: data });
     } catch (error) {
       console.error("Error fetching books:", error);
-      // Дополнительная обработка ошибок, если необходимо
     }
   };
 };
